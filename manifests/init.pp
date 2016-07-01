@@ -11,6 +11,7 @@ class admin_users (
       }
     }
 
+    #debian test
     'Debian': {
       user { $userlist:
         ensure     => present,
